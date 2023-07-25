@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 25px;
+}
+
+.logo img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.profile {
+  font-size: 40px;
+}
