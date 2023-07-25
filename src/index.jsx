@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import AdminLogin from "./routes/AdminLogin";
-import AdminData from "./routes/AdminData";
+import AdminData, { loader as adminDataLoader } from "./routes/AdminData";
 import reportWebVitals from "./reportWebVitals";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import RootLayout from "./routes/RootLayout";
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       {
         path: "/admin-data",
         element: <AdminData />,
-        // TODO: loader 설정하기
+        loader: adminDataLoader,
       },
     ],
   },
