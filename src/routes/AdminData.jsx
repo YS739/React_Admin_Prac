@@ -26,7 +26,8 @@ const AdminData = () => {
 
   return (
     <div>
-      <div>
+      {/* 카테고리 선택 */}
+      <div className="mt-[20px]">
         <select
           id="adminSort"
           name="adminSort"
